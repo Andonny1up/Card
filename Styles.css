@@ -11,6 +11,11 @@ header
     margin: 0;
     padding: 0.5em;
 }
+header #logo
+{
+    width: 40px;
+    vertical-align: middle;
+}
 body{
     background: #202125;
     text-align: center;
