@@ -1,10 +1,23 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+header
+{
+    background: #021458;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+}
 body{
-    background: #1e1f24;
-    /*color: #333;*/
+    background: #202125;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
     margin: 0;
+    margin-bottom: 40px;
     padding: 0;
 }
 section{
@@ -12,12 +25,37 @@ section{
     display: flex;
     justify-content: center;
 }
-.card{
-    height: 600px;
-    width: 400px;
-    margin-top: 25px;
+div{
+    height: 400px;
+    width: 250px;
+    margin: 30px;
     border-radius: 20px;
     border: 5px solid white;
     background: papayawhip;
     overflow: hidden;
+}
+div img{
+    width: 100%;
+}
+.card0{
+    box-shadow: 0px 2px 20px 0px white;
+}
+.card1{
+    box-shadow: 0px 2px 20px 0px yellow;
+}
+.card2{
+    box-shadow: 0px 2px 20px 0px blue;
+}
+.card3{
+    box-shadow: 0px 2px 20px 0px red;
+}
+footer
+{
+    background: #021458;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0%;
 }
